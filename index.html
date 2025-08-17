@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Malla Curricular Enfermería</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Malla Curricular Enfermería</h1>
+  <header class="topbar">
+    <h1>Malla Curricular · Enfermería</h1>
+    <div class="actions">
+      <button id="btn-reset" title="Borrar estado guardado">Reiniciar</button>
+    </div>
+  </header>
+
+  <section class="legend">
+    <span class="chip chip-pendiente">Pendiente</span>
+    <span class="chip chip-aprobado">Aprobado</span>
+    <span class="chip chip-bloqueado">Bloqueado</span>
+  </section>
+
   <main id="app"></main>
+
+  <footer class="footer">
+    <small>
+      * Haz clic en un ramo para marcarlo como aprobado. El estado queda guardado en tu navegador.
+    </small>
+  </footer>
+
   <script src="app.js"></script>
 </body>
 </html>
