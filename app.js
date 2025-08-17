@@ -1,6 +1,8 @@
- // 1º SEMESTRE (ejemplos)
+// Datos de ejemplo (plantilla). Puedes reemplazar/expandir con tu PDF.
+const CURSOS = [
+  // 1º SEMESTRE (ejemplos)
   { id: "anat", nombre: "Anatomía Humana", semestre: 1, creditos: 10, prereqs: [] },
-  { id: "quim", nombre: "Química", semestre: 1, creditos: 10, prereqs: [] },
+  { id: "quim", nombre: "Química Orgánica", semestre: 1, creditos: 10, prereqs: [] },
   { id: "natEnf", nombre: "Naturaleza de la Enfermería", semestre: 1, creditos: 10, prereqs: [] },
 
   // 2º SEMESTRE (ejemplos)
@@ -14,7 +16,7 @@
   { id: "fisio", nombre: "Fisiología", semestre: 3, creditos: 10, prereqs: ["bioq"] },
 
   // 4º SEMESTRE (ejemplos)
-  { id: "cef", nombre: "Cuidados de la Persona y la Familia", semestre: 4, creditos: 15, prereqs: ["cei"] },
+  { id: "cef", nombre: "Cuidado de la Persona y la Familia", semestre: 4, creditos: 15, prereqs: ["cei"] },
   { id: "fisiop", nombre: "Fisiopatología", semestre: 4, creditos: 10, prereqs: ["fisio"] },
   { id: "farma", nombre: "Farmacología Clínica", semestre: 4, creditos: 10, prereqs: ["fisio"] },
 ];
